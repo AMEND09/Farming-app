@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Farming-app/',  // Exactly matching your repository name
+  base: './',  // Exactly matching your repository name
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
